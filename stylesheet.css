@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    min-height: 45px;
+    background-color: rgb(19, 37, 23);
+    padding: 5px;
+    border-bottom: 1px solid rgb(11, 26, 14);
+}
+
+.heading h1 {
+    float: left;
+    margin-left: 10px;
+    line-height: 45px;
+    color: rgb(219, 219, 219);
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    word-spacing: 5px;
+}
+
+.menu ul a {
+    float: right;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 35px;
+    line-height: 45px;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+
+.heading-content {
+    min-height: 500px;
+    background-image: url(img/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    word-spacing: 5px;
+    border-bottom: 1px solid rgb(11, 26, 14);
+}
+
+.heading-content p {
+    color: rgb(219, 219, 219);
+    text-align: center;
+    font-size: 85px;
+    padding-top: 150px;
+}
+
+.heading-content span {
+    font-family: 'Caveat', cursive;
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.content {
+    background-image: url(img/visual-stories-micheile-kmrj_oFm6z4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 750px;
+    text-align: center;
+    width: 100%;
+}
+.content-title {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+}
+.content-title h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+        
+    word-spacing: 5px;
+}
+.content p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+    
+.content-menu {
+    max-width: 1500px;
+    margin: 50px auto;
+    display: flex;
+}
+.clear {
+    clear: left;
+}
+.card {
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    margin: 10px;
+    margin-right: 0 70px;
+    flex: 1;
+    float: left;
+    width: 25%;
+}
+.header-card-satu {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/slashio-photography-UlNLCTqXW2U-unsplash.jpg);
+}
+.header-card-dua {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/emile-mbunzama-cLpdEA23Z44-unsplash.jpg);
+}
+.header-card-tiga {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/svitlana-kg7gcQtp4N8-unsplash.jpg);
+}
+.header-card-empat {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/sheri-silver-Buf9e-nYin8-unsplash.jpg);
+}
+.content-card {
+    text-align: center;
+    padding: 20px 10px;
+}
+.content-card h4 {
+    padding-bottom: 5px;
+}
+button {
+    background-color: rgb(37, 37, 37);
+    padding: 5px;
+    color: #eee;
+}
+
+footer {
+    min-height: 45px;
+    padding: 5px;
+    background-color: rgb(19, 37, 23);
+    border-bottom: 1px solid rgb(11, 26, 14);
+}
+footer p {
+    text-align: center;
+    line-height: 45px;
+    color: rgb(219, 219, 219);
+}
+
+.fa-align-justify {
+    color: rgb(219, 219, 219);
+    float: right;
+    font-size: 15px;
+    padding: 21px 0;
+    display: none;
+}
+
+/** Computer **/
+@media all and (max-width: 1366px) {
+    .fa-align-justify {
+        display: none;
+    }
+}
+
+/** Tablet **/
+@media all and (max-width: 1000px) {
+    .heading-content {
+        min-height: 300px;
+        padding-bottom: 150px;
+    }
+    .heading-content p {
+        font-size: 50px;
+    }
+    .card {
+        width: 50%;
+    }
+    .fa-align-justify {
+        display: none;
+    }
+}
+
+/** Handphone **/
+@media all and (max-width: 670px) {
+    .heading-content {
+        min-height: 200px;
+        padding: 25px;
+    }
+    .heading-content p {
+        text-align: left;
+        font-size: 45px;
+    }
+    .heading h1 {
+        float: none;
+        padding: 10px 0;
+    }
+    .menu ul {
+        display: none;
+    }
+    .fa-align-justify {
+        display: block;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    footer {
+        min-height: 20px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
